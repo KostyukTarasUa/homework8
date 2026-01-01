@@ -1,0 +1,50 @@
+@import url('reset.css');
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    src: url(../fonts/Roboto_Condensed-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    src: url(../fonts/Roboto_Condensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    src: url(../fonts/Roboto_SemiCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    src: url(../fonts/Roboto_Condensed-Regular.ttf);
+}
+
+/* Global */
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.title:hover {
+    text-decoration: underline #2196F3;
+}
+
+/* Header */
